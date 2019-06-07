@@ -1,0 +1,132 @@
+---
+title: "bimm143_class12"
+author: "Fangchao He"
+date: "5/9/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Setup for Docking
+We will first prepare our HIV-Pr system for drug docking by making a protein only PDB format file (i.e. we will remove water, existing ligand etc.)
+
+```{r}
+library(bio3d)
+file <- get.pdb("1hsg")
+```
+
+```{r}
+hiv <- read.pdb(file)
+hiv
+```
+
+```{r}
+prot <- atom.select(hiv, "protein", value = TRUE)
+write.pdb(prot, file = "1hsg_protein.pdb")
+prot
+```
+
+```{r}
+lig <- atom.select(hiv, "ligand", value = TRUE)
+write.pdb(lig, file = "1hsg_ligand.pdb")
+lig
+```
+
+
+```{r}
+prot <- trim.pdb(hiv, "protein")
+lig <- trim.pdb(hiv, "ligand")
+```
+
+
+```{r}
+res <- read.pdb("all.pdbqt", multi=TRUE)
+write.pdb(res, "results.pdb")
+```
+
+```{r}
+# res <- read.pdb("all.pdbqt", multi=TRUE)
+ori <- read.pdb("ligand.pdbqt")
+rmsd(ori, res)
+```
+
+```{r}
+pdb <- read.pdb("1hel")
+modes <- nma(pdb)
+m7 <- mktrj(modes, mode = 7, file = "mode_7.pdb")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+
+
+
+
+
+

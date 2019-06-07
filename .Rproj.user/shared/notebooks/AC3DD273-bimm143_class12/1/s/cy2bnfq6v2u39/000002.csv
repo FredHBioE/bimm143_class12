@@ -1,0 +1,27 @@
+"0","lig <- atom.select(hiv, ""ligand"", value = TRUE)"
+"0","write.pdb(lig, file = ""1hsg_ligand.pdb"")"
+"0","lig"
+"1","
+ Call:  "
+"1",""
+"1","trim.pdb(pdb = pdb, sele)"
+"1",""
+"1","
+"
+"1","
+   Total Models#: 1
+     Total Atoms#: 45,  XYZs#: 135  Chains#: 1  (values: B)
+
+     Protein Atoms#: 0  (residues/Calpha atoms#: 0)
+     Nucleic acid Atoms#: 0  (residues/phosphate atoms#: 0)
+
+     Non-protein/nucleic Atoms#: 45  (residues: 1)
+     Non-protein/nucleic resid values: [ MK1 (1) ]
+
+"
+"1","+ attr: atom, helix, sheet, seqres, xyz,"
+"1","
+"
+"1","        calpha, call"
+"1","
+"

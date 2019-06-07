@@ -1,0 +1,10 @@
+"0","library(bio3d)"
+"0","file <- get.pdb(""1hsg"")"
+"2","trying URL 'https://files.rcsb.org/download/1hsg.pdb'
+"
+"2","Content type 'application/octet-stream'"
+"2"," length unknown
+"
+"2","downloaded 165 KB
+
+"

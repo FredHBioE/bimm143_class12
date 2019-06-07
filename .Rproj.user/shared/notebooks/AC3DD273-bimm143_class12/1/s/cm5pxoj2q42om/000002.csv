@@ -1,0 +1,2 @@
+"0","res <- read.pdb(""all.pdbqt"", multi=TRUE)"
+"0","write.pdb(res, ""results.pdb"")"

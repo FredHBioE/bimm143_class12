@@ -1,0 +1,20 @@
+"0","pdb <- read.pdb(""1hel"")"
+"1","  Note: Accessing on-line PDB file
+"
+"2","C:\Users\Fred\AppData\Local\Temp\RtmpSqefbg/1hel.pdb  exists. Skipping download"
+"0","modes <- nma(pdb)"
+"1"," Building Hessian..."
+"1","		Done in"
+"1"," "
+"1","0.11"
+"1"," "
+"1","seconds.
+"
+"1"," Diagonalizing Hessian..."
+"1","	Done in"
+"1"," "
+"1","0.11"
+"1"," "
+"1","seconds.
+"
+"0","m7 <- mktrj(modes, mode = 7, file = ""mode_7.pdb"")"

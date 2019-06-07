@@ -1,0 +1,38 @@
+"0","prot <- atom.select(hiv, ""protein"", value = TRUE)"
+"0","write.pdb(prot, file = ""1hsg_protein.pdb"")"
+"0","prot"
+"1","
+ Call:  "
+"1",""
+"1","trim.pdb(pdb = pdb, sele)"
+"1",""
+"1","
+"
+"1","
+   Total Models#: 1
+     Total Atoms#: 1514,  XYZs#: 4542  Chains#: 2  (values: A B)
+
+     Protein Atoms#: 1514  (residues/Calpha atoms#: 198)
+     Nucleic acid Atoms#: 0  (residues/phosphate atoms#: 0)
+
+     Non-protein/nucleic Atoms#: 0  (residues: 0)
+     Non-protein/nucleic resid values: [ none ]
+
+"
+"1","   Protein sequence:
+"
+"1",""
+"1","      PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD
+      QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNFPQITLWQRPLVTIKIGGQLKE
+      ALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTP
+      VNIIGRNLLTQIGCTLNF"
+"1",""
+"1","
+
+"
+"1","+ attr: atom, helix, sheet, seqres, xyz,"
+"1","
+"
+"1","        calpha, call"
+"1","
+"
